@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.input-style {
+  @apply px-4 py-2 border rounded-lg bg-gray-50 border-gray-300 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500; 
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
